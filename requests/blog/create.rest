@@ -1,0 +1,11 @@
+
+POST http://localhost:3000/api/blogs
+Content-Type: application/json
+Authorization: Bearer thisTheLongBearerToken
+
+{
+    "title": "the title 2",
+    "content": "This is the second content.."
+}
+
+
